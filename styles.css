@@ -11,7 +11,7 @@ body {
 .banner {
     background: url("anh1.jpg") no-repeat center center;
     background-size: cover;
-    height: 300px; /* Chiều cao banner */
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +23,6 @@ body {
     font-size: 2.5rem;
     margin: 0;
 }
-
 
 /* Row and Block Styles */
 .row {
