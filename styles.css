@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Or your preferred font */
+    margin: 0;
+    background-color: black /* Light background */
+    color: #333; /* Dark text */
+    line-height: 1.6;
+}
+
+/* Banner Section */
+.banner {
+    background: url("banner.jpg") ;     background-size: cover;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    text-align: center !important;     color: rgb(128,128,0) ;
+}
+
+.slogan {
+    text-align: center !important;
+    width: 100%;
+}
+
+/* Row and Block Styles */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -1;     max-width: 100%;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    background-color: lightgreen;
+}
+
+.block_3 {
+    flex: 0 0 auto;
+    width: 30%;
+    margin: 10px;
+}
+
+/* Cell Styles (for image and text) */
+.cell_img {
+    width: 50%;
+}
+
+.cell_text {
+    width: 50%;
+    padding-left: 5rem;
+}
+
+/* Image Styles */
+.img {
+    width: 100%;
+    height: auto;}
+
+/* Footer */
+footer {
+    background-color: lightgreen;
+    margin: 1px;     padding: 10px;
+}
+
+
+.link {
+    color: navy;
+    text-align: left;
+}
+
+.menu {
+    font-size: 120%;
+    text-decoration: none;
+}
+
+/* Hover Effects */
+.slogan:hover {
+    color: red;
+}
+
+.block_3:hover {
+    color: red;
+}
+
+p:hover {
+    color: red;
+}
+
+h2:hover {
+    color: red;
+}
+
+a:hover {
+    color: red;
+}
+/*table*/
+table {
+    width: 100%;     }
+
+td {
+    padding: 10px; }

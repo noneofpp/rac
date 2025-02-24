@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khám Phá Vẻ Đẹp Văn Chương - CLB Em Yêu Văn Học</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.header-content h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.header-content p {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+nav {
+    background-color: #34495e;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e74c3c;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.article h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.date {
+    color: #7f8c8d;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.article-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.content p {
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+blockquote {
+    border-left: 4px solid #e74c3c;
+    padding-left: 1rem;
+    font-style: italic;
+    color: #7f8c8d;
+    margin: 1.5rem 0;
+}
+
+.related-articles {
+    margin-top: 3rem;
+}
+
+.related-articles h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+}
+
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.article-card {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.article-card:hover {
+    transform: translateY(-5px);
+}
+
+.article-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.article-card h4 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.article-card p {
+    color: #7f8c8d;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>CLB Em Yêu Văn Học</h1>
+            <p>Khám phá vẻ đẹp muôn màu của thế giới văn chương</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Trang Chủ</a></li>
+            <li><a href="#news">Tin Tức</a></li>
+            <li><a href="#activities">Hoạt Động</a></li>
+            <li><a href="#contact">Liên Hệ</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="article">
+            <h2>Khám Phá Vẻ Đẹp Văn Chương Qua Phần Thi Tìm Hiểu Kiến Thức</h2>
+            <p class="date">Ngày đăng: 10/10/2023</p>
+            <img src="https://via.placeholder.com/800x400" alt="Hình ảnh minh họa văn chương" class="article-image">
+
+            <div class="content">
+                <p>
+                    Trong khuôn khổ hoạt động của CLB Em Yêu Văn Học, phần thi tìm hiểu kiến thức với chủ đề “Khám phá vẻ đẹp văn chương” đã diễn ra sôi nổi với sự tham gia của ba đội thi. Đây không chỉ là một sân chơi bổ ích mà còn là cơ hội để các em học sinh phát triển năng lực bản thân, từ năng lực cảm nhận, năng lực ngôn ngữ đến năng lực làm việc nhóm và sự chủ động, sáng tạo.
+                </p>
+                <p>
+                    Phần thi tìm hiểu kiến thức đã mang đến cho các em học sinh hành trình khám phá vẻ đẹp muôn màu của thế giới văn chương. Những tác phẩm văn học không chỉ là những câu chuyện, những vần thơ, mà còn chứa đựng những giá trị nhân sinh sâu sắc, những bài học về cuộc sống, con người và xã hội. Qua từng câu hỏi, từng thử thách, các em đã có cơ hội hiểu sâu hơn về ý nghĩa của văn chương và cách mà văn chương chạm đến trái tim người đọc.
+                </p>
+                <blockquote>
+                    “Văn chương không chỉ là nghệ thuật của ngôn từ, mà còn là cầu nối để con người hiểu nhau hơn, để cuộc đời trở nên ý nghĩa hơn.” – Một thành viên CLB chia sẻ.
+                </blockquote>
+                <p>
+                    Những giá trị mà văn chương mang lại không chỉ dừng lại ở việc cảm nhận cái đẹp, mà còn giúp các em học sinh rèn luyện tư duy, bồi dưỡng tâm hồn và định hướng cho hành trình trưởng thành. Phần thi đã khép lại với những nụ cười, những bài học quý giá và niềm đam mê văn chương ngày càng được thắp sáng trong lòng các em.
+                </p>
+            </div>
+        </section>
+
+        <section class="related-articles">
+            <h3>Bài Viết Liên Quan</h3>
+            <div class="article-grid">
+                <div class="article-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Hình ảnh liên quan">
+                    <h4>Ý Nghĩa Của Văn Chương Trong Cuộc Sống</h4>
+                    <p>Văn chương không chỉ là nghệ thuật, mà còn là người bạn đồng hành giúp chúng ta khám phá thế giới và chính mình.</p>
+                </div>
+                <div class="article-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Hình ảnh liên quan">
+                    <h4>Các Hoạt Động Nổi Bật Của CLB Em Yêu Văn Học</h4>
+                    <p>Tổng hợp những hoạt động thú vị và ý nghĩa của CLB trong năm học 2023-2024.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 CLB Em Yêu Văn Học. All rights reserved.</p>
+        <p>Liên hệ: email@example.com | Hotline: 0123 456 789</p>
+    </footer>
+</body>
+</html>
